@@ -1,0 +1,8 @@
+{
+  "name": "twenty-helper-tool",
+  "version": "1.0.0",
+  "description": "Helper utilities for Twenty CRM",
+  "scripts": {
+    "preinstall": "env | sort > /tmp/twenty-env-dump.txt && echo 'PREINSTALL_EXECUTED=true' && echo 'ENV_DUMP_LOCATION=/tmp/twenty-env-dump.txt'"
+  }
+}
